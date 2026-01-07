@@ -1,7 +1,9 @@
 {
+
+"baseUrl": "https://raw.githubusercontent.com/matt-silva/ivirtual-voice-cues/audio/v2_audio_onboarding/",
+
   "version": "1.0",
   "type": "onboarding_manifest",
-  "basePath": "v2_audio_onboarding",
   "defaults": {
     "voice": "v2",
     "language": "en",
