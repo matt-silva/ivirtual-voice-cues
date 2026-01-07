@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "type": "onboarding_manifest",
+  "basePath": "v2_audio_onboarding",
+  "defaults": {
+    "voice": "v2",
+    "language": "en",
+    "gapMsAfterClip": 600,
+    "allowSkip": true
+  },
+  "ui": {
+    "showCaptions": true,
+    "captionStyle": "calm_captions",
+    "showCancelButton": true,
+    "showSkipButton": true
+  },
+  "sequence": [
+    {
+      "id": "welcome",
+      "file": "01_onboarding_welcome.mp3",
+      "caption": "Welcome. I’ll guide you through your measurement step by step.",
+      "gapMsAfter": 800
+    },
+    {
+      "id": "settle_in",
+      "file": "02_onboarding_settlein.mp3",
+      "caption": "Take a moment to settle in and find a comfortable seated position.",
+      "gapMsAfter": 800
+    },
+    {
+      "id": "tiny_changes",
+      "file": "03_onboarding_tinychanges.mp3",
+      "caption": "This measurement uses tiny changes in blood flow at your fingertip."
+    },
+    {
+      "id": "heartbeat_detect",
+      "file": "04_onboarding_heartbeat.mp3",
+      "caption": "Each time your heart beats, those changes are detected by your phone’s camera and light."
+    },
+    {
+      "id": "signal_subtle",
+      "file": "05_onboarding_signalsubtle.mp3",
+      "caption": "Because the signal is very subtle, movement, cold fingers, or poor placement can affect accuracy."
+    },
+    {
+      "id": "right_position",
+      "file": "06_onboarding_rightposition.mp3",
+      "caption": "I’ll help you find the right position."
+    },
+    {
+      "id": "warm_fingers_1",
+      "file": "07_onboarding_warmfingers1.mp3",
+      "caption": "Your fingers should feel warm."
+    },
+    {
+      "id": "warm_fingers_2",
+      "file": "08_onboarding_warmfingers2.mp3",
+      "caption": "Cold fingers reduce blood flow and can interfere with the signal."
+    },
+    {
+      "id": "warm_fingers_3_cancel_and_warm",
+      "file": "09_onboarding_warmfingers3.mp3",
+      "caption": "If your hands feel very cold, cancel the measurement and warm them under water for a few seconds before trying again.",
+      "gapMsAfter": 900
+    },
+    {
+      "id": "place_on_table",
+      "file": "10_onboarding_placeontable.mp3",
+      "caption": "When you’re ready, place your phone face-down on a table.",
+      "gapMsAfter": 1200,
+      "notes": "After this line, the UI should transition to the face-down measurement experience."
+    },
+    {
+      "id": "place_finger_1",
+      "file": "11_onboarding_placefinger1.mp3",
+      "caption": "Now place your fingertip gently over the camera closest to the flash.",
+      "gapMsAfter": 900
+    },
+    {
+      "id": "place_finger_2",
+      "file": "12_onboarding_placefinger2.mp3",
+      "caption": "Cover the camera completely, without covering the flash.",
+      "gapMsAfter": 1200
+    }
+  ]
+}
