@@ -1,6 +1,6 @@
 {
 
-"baseUrl": "https://raw.githubusercontent.com/matt-silva/ivirtual-voice-cues/audio/v2_audio_onboarding/",
+"baseUrl": "https://raw.githubusercontent.com/matt-silva/ivirtual-voice-cues/refs/heads/main/audio/v2_audio_onboarding/",
 
   "version": "1.0",
   "type": "onboarding_manifest",
