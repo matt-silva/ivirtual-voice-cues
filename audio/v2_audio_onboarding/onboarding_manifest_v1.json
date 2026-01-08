@@ -69,7 +69,7 @@
       "id": "place_on_table",
       "file": "10_onboarding_placeontable.mp3",
       "caption": "When you’re ready, place your phone face-down on a table.",
-      "gapMsAfter": 1200,
+      "gapMsAfter": 2000,
       "notes": "After this line, the UI should transition to the face-down measurement experience."
     },
     {
